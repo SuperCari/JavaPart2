@@ -34,7 +34,7 @@ public class Square extends QuadrangularShape {
 
     @Override
     public double calcPerimeter() {
-        return sideA*sideA;
+        return sideA*4;
     }
 
     @Override
