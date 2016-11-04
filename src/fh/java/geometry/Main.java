@@ -23,7 +23,7 @@ public class Main {
 
         fillList(shapeList);
 
-        printList();
+        printList(shapeList);
 
         List<Circle> circleList = new ArrayList<>();
         for (GeometricShape shape : shapeList) {
@@ -53,9 +53,9 @@ public class Main {
 
 
     public void printList(List<GeometricShape> shapeList) {
-		//TODO: Implement
-    System.out.println("----forloop------");
-        for (int pos = 0; pos <  shapeList.size(); pos++) {
+        //TODO: Implement
+        System.out.println("----forloop------");
+        for (int pos = 0; pos < shapeList.size(); pos++) {
             System.out.println(shapeList.get(pos));
         }
 
@@ -66,13 +66,13 @@ public class Main {
         }
 
         shapeList.stream()
-                .forEach(shape-> System.out.println(shape));
+                .forEach(shape -> System.out.println(shape));
 
         shapeList.stream()
-                .forEach(System.out::println("lllllllllllaaaaaaaa"));
+                .forEach(System.out::println);
+
 
     }
-
 }
 
 
